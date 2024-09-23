@@ -1,0 +1,55 @@
+section{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    display: flex;
+    justify-content: right;
+}
+.image img {
+    width: 1000px;
+}
+.section {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.start h2 {
+    margin-top: 30px;
+}
+.start p {
+    margin-top: 20px;
+}
+.start button {
+    display: flex;
+    flex-direction: column;
+    margin-top:  20px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #333;
+    height: 10%;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.email input {
+    width: 70%;
+    height: 5%;
+    border-radius: 10px;
+}
+span button {
+    margin-top: 40px;
+    width: 30%;
+    border-radius: 5px;
+    height: 6%;
+}
+@media screen and (max-width: 800px) {
+    .image {
+        display: none;
+    }
+    .section {
+        justify-content: center;
+        align-items: center;
+    }
+}

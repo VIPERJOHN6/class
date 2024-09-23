@@ -23,7 +23,7 @@ section{
 }
 .class button {
     width: 100%;
-    background-image: url("/6aeb5c4d-c57b-4130-aa9c-ee3212c368f0.svg");
+    background-image: url("./6aeb5c4d-c57b-4130-aa9c-ee3212c368f0.svg");
     background-repeat: no-repeat;
     background-position: 50px;
     text-align: center;
@@ -34,7 +34,7 @@ section{
 }
 .button{
     width: 100%;
-    background-image: url("/6aeb5c4d-c57b-4130-aa9c-ee3212c368f0.svg");
+    background-image: url("./6aeb5c4d-c57b-4130-aa9c-ee3212c368f0.svg");
     background-repeat: no-repeat;
     background-position: 50px;
     text-align: center;
